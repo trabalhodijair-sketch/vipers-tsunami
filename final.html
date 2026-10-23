@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> O Apocalipse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <a class="marca" href="#inicio">🧟 VIPERS TSUNAMI</a>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="terrestres.html">Terrestres</a>
+    <a href="aereas.html">Aéreas</a>
+    <a href="devastadores.html">Devastadores</a>
+    <a href="estruturas.html">Estruturas</a>
+    <a href="habilidades.html">Habilidades</a>
+    <a href="chefes.html">Chefes</a>
+    <a href="sobreviventes.html">Sobreviventes</a>
+    <a href="final.html">Conclusão</a>
+  </nav>
+</header>
+
+<!-- PÁGINA 9: CONCLUSÃO -->
+<section class="pagina conclusao" id="final">
+  <p class="etiqueta">O FUTURO ESTÁ EM SUAS MÃOS</p>
+  <h2>O apocalipse está apenas <span>começando.</span></h2>
+  <p>Escolha suas cartas, combine poderes e prepare sua equipe. No mundo de Zumbi Tsunami, cada decisão pode fazer a diferença entre a vitória e a derrota.</p>
+
+  <div class="imagem-final">
+    <span>ESPAÇO PARA IMAGEM FINAL</span>
+    <small>imagens/horda-final.png</small>
+    <!-- Substitua este bloco por:
+    <img src="imagens/horda-final.png" alt="A horda de Zumbi Tsunami">
+    -->
+  </div>
+
+  <div class="botoes">
+    <a class="botao" href="#inicio">VOLTAR AO INÍCIO</a>
+    <a class="botao botao-secundario" href="#terrestres">REVER AS CARTAS</a>
+  </div>
+</section>
+<footer class="footer">
+    <a class="brand footer-brand" href="#inicio">
+      <span class="brand-icon">☣</span>
+      <span>ZUMBI <strong>TSUNAMI</strong></span>
+    </a>
+    <p>Um universo de estratégia, caos e sobrevivência.</p>
+    <span class="footer-copy">Projeto de jogo • 2026</span>
+  </footer>
+
+  <dialog class="card-modal" id="cardModal" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Fechar detalhes">×</button>
+    <div class="modal-layout">
+      <div class="modal-image-wrap">
+        <img id="modalImage" alt="" hidden>
+        <div class="modal-placeholder" id="modalPlaceholder">
+          <span>☣</span>
+          <small>IMAGEM DA CARTA</small>
+        </div>
+      </div>
+      <div class="modal-info">
+        <span class="eyebrow" id="modalCategory">UNIDADE</span>
+        <h2 id="modalTitle">Nome da carta</h2>
+        <div class="modal-badges">
+          <span id="modalRarity">Comum</span>
+          <span id="modalCost">⚡ 3 de energia</span>
+        </div>
+        <p id="modalDescription"></p>
+        <div class="detail-block">
+          <h3>HABILIDADE</h3>
+          <p id="modalAbility"></p>
+        </div>
+        <div class="detail-block">
+          <h3>INFORMAÇÕES</h3>
+          <p id="modalDetails"></p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+</body>
+</html>
